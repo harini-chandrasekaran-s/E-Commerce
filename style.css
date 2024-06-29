@@ -103,9 +103,7 @@ button:hover{
     transition: transform 0.2s; 
     transform: scale(1.1);
 }
-.feature{
-    align-self: normal;
-}
+
 .t{
     text-align: center;
     padding-top: 50px;
@@ -115,7 +113,7 @@ button:hover{
     gap: 50px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-self: normal;
+    
 }
 .card1{
     width: 20%;
@@ -124,13 +122,13 @@ button:hover{
     border-radius: 20px;
     padding: 20px;
     cursor: pointer;
-    align-self: normal;
 }
 .card1 img{
     text-align: center;
     align-items: center;
     width: 100%;
     height: 50%;
+    border-radius: 20px;
 }
 .card1:hover{
     background-color: rgb(243, 239, 239);
@@ -158,4 +156,58 @@ ul{
 .checked{
     color:rgb(155, 166, 248) ;
 }
-
+.banner img{
+    background-size: cover;
+    width: 100%;
+    height: 10%;
+}
+.banner button{
+   position: absolute;
+   width: 150px;
+   height: 50px;
+    left: 680px;
+    top: 370px;
+    color: white;
+    background-color: rgb(88, 117, 123);
+}
+.bannercon{
+    position: relative;
+}
+.banner button:hover{
+    background-color: rgb(112, 149, 164);
+   
+}
+.ad{
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    background-image: url(img11.png);
+    margin-bottom: 50px;
+}
+.ad img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px black;    
+}
+.ad img:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+.footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(75, 75, 102);
+    color: white;
+    padding: 100px;
+}
+.footer p{
+    cursor: pointer;
+}
+.footer p:hover{
+    color: rgb(49, 49, 61);
+}
+.footer h2{
+    padding-bottom: 10px;
+}
